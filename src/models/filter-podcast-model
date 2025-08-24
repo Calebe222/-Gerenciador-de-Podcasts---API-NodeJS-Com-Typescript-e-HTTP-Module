@@ -1,0 +1,7 @@
+import { PodCastModel } from './podcast-model';
+
+
+export interface FilterPodcastModel {
+  statusCode: number;
+  body: PodCastModel[];
+}
